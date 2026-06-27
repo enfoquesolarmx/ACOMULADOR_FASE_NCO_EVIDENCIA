@@ -1,0 +1,11 @@
+parametro,valor,unidad,descripcion
+ACC_BITS,32,bits,tamano del acumulador de fase
+TABLE_SIZE,1024,entradas,puntos de la tabla de seno
+ACC_SHIFT,22,bits,corrimiento para indexar la tabla
+phase_increment,12884902,-,avance por muestra (frecuencia)
+portadora_real,20000.00,Hz,frecuencia de muestreo del NCO
+fundamental,60.0000,Hz,frecuencia senoidal objetivo
+muestras_por_ciclo,333.3333,muestras,por ciclo de 60Hz
+amplitude,359,-,pico de la tabla de seno
+MIN_PULSE_TICKS,12,-,umbral de supresion de pulso minimo
+banda_supresion,1.92,grados,+/- alrededor de cada cruce
